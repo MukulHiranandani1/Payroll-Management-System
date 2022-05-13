@@ -1,0 +1,56 @@
+"2022-04-22 11:51:25 [thread] INFO  i.p.CompanyModuleApplication - Starting CompanyModuleApplication using Java 1.8.0_311 on LAPTOP-9970T6TV with PID 22104 (D:\Spring\CompanyModule\target\classes started by Hp in D:\Spring\CompanyModule)
+""2022-04-22 11:51:25 [thread] DEBUG i.p.CompanyModuleApplication - Running with Spring Boot v2.6.3, Spring v5.3.15
+""2022-04-22 11:51:25 [thread] INFO  i.p.CompanyModuleApplication - No active profile set, falling back to default profiles: default
+""2022-04-22 11:51:25 [thread] INFO  o.s.b.d.restart.ChangeableUrls - The Class-Path manifest attribute in C:\Users\Hp\.m2\repository\org\apache\derby\derby\10.14.2.0\derby-10.14.2.0.jar referenced one or more files that do not exist: file:/C:/Users/Hp/.m2/repository/org/apache/derby/derby/10.14.2.0/derbyLocale_cs.jar,file:/C:/Users/Hp/.m2/repository/org/apache/derby/derby/10.14.2.0/derbyLocale_de_DE.jar,file:/C:/Users/Hp/.m2/repository/org/apache/derby/derby/10.14.2.0/derbyLocale_es.jar,file:/C:/Users/Hp/.m2/repository/org/apache/derby/derby/10.14.2.0/derbyLocale_fr.jar,file:/C:/Users/Hp/.m2/repository/org/apache/derby/derby/10.14.2.0/derbyLocale_hu.jar,file:/C:/Users/Hp/.m2/repository/org/apache/derby/derby/10.14.2.0/derbyLocale_it.jar,file:/C:/Users/Hp/.m2/repository/org/apache/derby/derby/10.14.2.0/derbyLocale_ja_JP.jar,file:/C:/Users/Hp/.m2/repository/org/apache/derby/derby/10.14.2.0/derbyLocale_ko_KR.jar,file:/C:/Users/Hp/.m2/repository/org/apache/derby/derby/10.14.2.0/derbyLocale_pl.jar,file:/C:/Users/Hp/.m2/repository/org/apache/derby/derby/10.14.2.0/derbyLocale_pt_BR.jar,file:/C:/Users/Hp/.m2/repository/org/apache/derby/derby/10.14.2.0/derbyLocale_ru.jar,file:/C:/Users/Hp/.m2/repository/org/apache/derby/derby/10.14.2.0/derbyLocale_zh_CN.jar,file:/C:/Users/Hp/.m2/repository/org/apache/derby/derby/10.14.2.0/derbyLocale_zh_TW.jar
+""2022-04-22 11:51:25 [thread] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+""2022-04-22 11:51:25 [thread] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+""2022-04-22 11:51:30 [thread] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+""2022-04-22 11:51:30 [thread] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 724 ms. Found 1 JPA repository interfaces.
+""2022-04-22 11:51:31 [thread] INFO  o.s.cloud.context.scope.GenericScope - BeanFactory id=45aa07c1-d5b4-3c66-a73e-c17a517e6e3c
+""2022-04-22 11:51:34 [thread] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8081 (http)
+""2022-04-22 11:51:34 [thread] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+""2022-04-22 11:51:34 [thread] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.56]
+""2022-04-22 11:51:35 [thread] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+""2022-04-22 11:51:35 [thread] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 9963 ms
+""2022-04-22 11:51:38 [thread] INFO  o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:postgresql://localhost:5432/payroll'
+""2022-04-22 11:51:39 [thread] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+""2022-04-22 11:51:39 [thread] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.6.4.Final
+""2022-04-22 11:51:40 [thread] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+""2022-04-22 11:51:40 [thread] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+""2022-04-22 11:51:43 [thread] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+""2022-04-22 11:51:43 [thread] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+""2022-04-22 11:51:45 [thread] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+""2022-04-22 11:51:47 [thread] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+""2022-04-22 11:51:48 [thread] INFO  o.s.c.n.e.c.DiscoveryClientOptionalArgsConfiguration - Eureka HTTP Client uses RestTemplate.
+""2022-04-22 11:51:48 [thread] WARN  o.s.c.l.c.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger - Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+""2022-04-22 11:51:48 [thread] INFO  o.s.b.a.e.web.EndpointLinksResolver - Exposing 1 endpoint(s) beneath base path '/actuator'
+""2022-04-22 11:51:48 [thread] INFO  o.s.c.n.eureka.InstanceInfoFactory - Setting initial instance status as: STARTING
+""2022-04-22 11:51:49 [thread] INFO  c.netflix.discovery.DiscoveryClient - Initializing Eureka in region us-east-1
+""2022-04-22 11:51:49 [thread] INFO  c.n.d.s.r.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+""2022-04-22 11:51:49 [thread] INFO  c.netflix.discovery.DiscoveryClient - Disable delta property : false
+""2022-04-22 11:51:49 [thread] INFO  c.netflix.discovery.DiscoveryClient - Single vip registry refresh property : null
+""2022-04-22 11:51:49 [thread] INFO  c.netflix.discovery.DiscoveryClient - Force full registry fetch : false
+""2022-04-22 11:51:49 [thread] INFO  c.netflix.discovery.DiscoveryClient - Application is null : false
+""2022-04-22 11:51:49 [thread] INFO  c.netflix.discovery.DiscoveryClient - Registered Applications size is zero : true
+""2022-04-22 11:51:49 [thread] INFO  c.netflix.discovery.DiscoveryClient - Application version is -1: true
+""2022-04-22 11:51:49 [thread] INFO  c.netflix.discovery.DiscoveryClient - Getting all instance registry info from the eureka server
+""2022-04-22 11:51:50 [thread] INFO  c.netflix.discovery.DiscoveryClient - The response status is 200
+""2022-04-22 11:51:50 [thread] INFO  c.netflix.discovery.DiscoveryClient - Starting heartbeat executor: renew interval is: 30
+""2022-04-22 11:51:50 [thread] INFO  c.n.discovery.InstanceInfoReplicator - InstanceInfoReplicator onDemand update allowed rate per min is 4
+""2022-04-22 11:51:50 [thread] INFO  c.netflix.discovery.DiscoveryClient - Discovery Client initialized at timestamp 1650608510875 with initial instances count: 0
+""2022-04-22 11:51:50 [thread] INFO  o.s.c.n.e.s.EurekaServiceRegistry - Registering application COMPANY-MODULE with eureka with status UP
+""2022-04-22 11:51:50 [thread] INFO  c.netflix.discovery.DiscoveryClient - Saw local status change event StatusChangeEvent [timestamp=1650608510886, current=UP, previous=STARTING]
+""2022-04-22 11:51:50 [thread] INFO  c.netflix.discovery.DiscoveryClient - DiscoveryClient_COMPANY-MODULE/LAPTOP-9970T6TV:company-module:8081: registering service...
+""2022-04-22 11:51:50 [thread] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8081 (http) with context path ''
+""2022-04-22 11:51:50 [thread] INFO  o.s.c.n.e.s.EurekaAutoServiceRegistration - Updating port to 8081
+""2022-04-22 11:51:51 [thread] INFO  c.netflix.discovery.DiscoveryClient - DiscoveryClient_COMPANY-MODULE/LAPTOP-9970T6TV:company-module:8081 - registration status: 204
+""2022-04-22 11:51:51 [thread] INFO  i.p.CompanyModuleApplication - Started CompanyModuleApplication in 28.7 seconds (JVM running for 31.222)
+""2022-04-22 11:52:20 [thread] INFO  c.netflix.discovery.DiscoveryClient - Disable delta property : false
+""2022-04-22 11:52:20 [thread] INFO  c.netflix.discovery.DiscoveryClient - Single vip registry refresh property : null
+""2022-04-22 11:52:20 [thread] INFO  c.netflix.discovery.DiscoveryClient - Force full registry fetch : false
+""2022-04-22 11:52:20 [thread] INFO  c.netflix.discovery.DiscoveryClient - Application is null : false
+""2022-04-22 11:52:20 [thread] INFO  c.netflix.discovery.DiscoveryClient - Registered Applications size is zero : true
+""2022-04-22 11:52:20 [thread] INFO  c.netflix.discovery.DiscoveryClient - Application version is -1: false
+""2022-04-22 11:52:20 [thread] INFO  c.netflix.discovery.DiscoveryClient - Getting all instance registry info from the eureka server
+""2022-04-22 11:52:20 [thread] INFO  c.netflix.discovery.DiscoveryClient - The response status is 200
+"
